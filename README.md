@@ -1,1 +1,42 @@
-# ignores
+## Visual Studio Code
+
+`.code-workspace`
+
+```json
+{
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/.github": true,
+			"**/.gitignore": true,
+			"**/.DS_Store": true,
+			"**/.cache": true,
+			"**/.yarn": true,
+			"**/.vscode": true,
+			"**/.nuxt": true,
+			"**/.terragrunt-cache": true,
+			"**/.idea": true,
+			"**/.terraform": true,
+			"**/.tfstate": true,
+			"**/.terraform.lock.hcl": true,
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/.github": true,
+			"**/.gitignore": true,
+			"**/.DS_Store": true,
+			"**/.cache": true,
+			"**/.yarn": true,
+			"**/.vscode": true,
+			"**/.nuxt": true,
+			"**/.terragrunt-cache": true,
+			"**/.idea": true,
+			"**/.terraform": true,
+			"**/.tfstate": true,
+			"**/.terraform.lock.hcl": true,
+		}
+	}
+}
+```
