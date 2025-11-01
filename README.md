@@ -1,6 +1,4 @@
-## Visual Studio Code
-
-`.code-workspace`
+#### Visual Studio Code `.code-workspace`
 
 ```json
 {
@@ -39,4 +37,23 @@
 		}
 	}
 }
+```
+
+#### Cursor .cursorignore
+
+```gitignore
+**/node_modules
+**/.git
+**/.github
+**/.gitignore
+**/.DS_Store
+**/.cache
+**/.yarn
+**/.vscode
+**/.nuxt
+**/.terragrunt-cache
+**/.idea
+**/.terraform
+**/*.tfstate
+**/.terraform.lock.hcl
 ```
