@@ -2,6 +2,11 @@
 
 ```json
 {
+	"folders": [
+		{
+			"path": "."
+		}
+	],
 	"settings": {
 		"files.exclude": {
 			"**/node_modules": true,
