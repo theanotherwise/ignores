@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
+		"window.title": "Presemantic | App | Homearo | Upload - CF Workerxxx",
 		"files.exclude": {
 			"**/node_modules": true,
 			"**/.git": true,
@@ -23,6 +24,10 @@
 			"**/.terraform": true,
 			"**/.tfstate": true,
 			"**/.terraform.lock.hcl": true,
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/*.pyo": true,
+			"**/*.pyd": true
 		},
 		"search.exclude": {
 			"**/node_modules": true,
@@ -39,6 +44,10 @@
 			"**/.terraform": true,
 			"**/.tfstate": true,
 			"**/.terraform.lock.hcl": true,
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/*.pyo": true,
+			"**/*.pyd": true
 		}
 	}
 }
@@ -61,4 +70,8 @@
 **/.terraform
 **/*.tfstate
 **/.terraform.lock.hcl
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
 ```
